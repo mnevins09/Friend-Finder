@@ -8,6 +8,6 @@
 
 #Heroku
 
-* Live site may be seen at https://infinite-spire-79228.herokuapp.com/
+* Live site may be seen at https://safe-thicket-92111.herokuapp.com/
 
 
