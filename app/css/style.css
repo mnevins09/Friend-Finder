@@ -1,0 +1,7 @@
+/*CSS for modal to align the header of the modal on the left*/
+/*============================================================*/
+
+.vertical-align-left {
+    display: table-cell;
+    vertical-align: left;
+}
