@@ -1,26 +1,14 @@
 {
-    "name": "Friend-Finder",
-    "version": "1.0.0",
-    "description": "Using Node and Express Servers build a compatibility-based \"FriendFinder\" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
+    "name": "friendfinder",
+    "version": "8.9.4",
+    "description": "Helps you find a friend that is compatible",
     "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mnevins09/Friend-Finder.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/mnevins09/Friend-Finder/issues"
-    },
-    "homepage": "https://github.com/mnevins09/Friend-Finder#readme",
     "dependencies": {
-      "body": "^5.1.0",
-      "express": "^4.16.3",
-      "parser": "^0.1.4"
+      "body-parser": "^1.15.0",
+      "express": "^4.13.4",
+      "path": "^0.12.7"
+    },
+    "scripts": {
+      "start": "node server.js"
     }
   }
