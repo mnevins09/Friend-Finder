@@ -3,10 +3,10 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 
-// Sets up the Express App and port for Heroku
+// Sets up the Express App and PORT for Heroku
 // =============================================================
 var app = express();
-var port = process.env.port || 8080;
+var PORT = process.env.PORT || 8080;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({extended: true}));
@@ -19,6 +19,6 @@ require("./app/routing/htmlRoutes.js")(app);
 
 // Starts the server to begin listening
 // =============================================================
-app.listen(port, function() {
-    console.log("App listening on PORT " + port);
+app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
   });
